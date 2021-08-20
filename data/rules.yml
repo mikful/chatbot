@@ -12,7 +12,10 @@ rules:
   - intent: bot_challenge
   - action: utter_iamabot
 
-- rule: respond to FAQs
+  
+# action to search google for out of scope queries
+# https://rasa.com/docs/rasa/fallback-handoff#fallbacks
+- rule: out-of-scope
   steps:
-  - intent: faq
-  - action: utter_faq
+  - intent: out_of_scope
+  - action: action_out_of_scope
