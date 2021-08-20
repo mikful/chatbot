@@ -50,10 +50,22 @@ class GoogleSearchAction(Action):
 
         search = GoogleSearch(params)
         results = search.get_dict()
-        # print(f'Here's an idea: {"".join(results["answer_box"]["list"])}')
-        # print(f'Please see the following link for more information: {results["answer_box"]["link"]}')
-        
-        dispatcher.utter_message(f'Here\'s an idea: {"".join(results["answer_box"]["list"])}')
-        dispatcher.utter_message(f'Please see the following link for more information: {results["answer_box"]["link"]}')
+
+        # answerbox keys - sometimes no list, just snippet
+        answer_keys = ("list","snippet")
+
+        answered = 0
+
+        # check result answer box for either list or snippet and return
+        for key in answer_keys:
+            if key in results["answer_box"]:
+                dispatcher.utter_message(f'Here\'s an idea: {"".join(results["answer_box"][key])}')
+                dispatcher.utter_message(f'Please see the following link for more information: {results["answer_box"]["link"]}')
+                answered = 1
+                break
+
+        # else give other response
+        if not answered:
+            dispatcher.utter_message("I'm sorry, I don't have a clear answer for that yet.")
 
         return []
