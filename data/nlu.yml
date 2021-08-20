@@ -83,11 +83,21 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: faq/age
+- intent: faq/weight-q1
   examples: |
-    - How old are you?
-    - Can you tell me your age?
-- intent: faq/location 
+    - How can I gain weight and muscle weight?
+- intent: faq/weight-q2 
   examples: |
-    - Where are you from?
-    - Can you tell me where do you live?
+    - How to gain weight for a naturally thin person?
+- intent: faq/weight-q3
+  examples: |
+    - Does drinking Milk with honey help gain weight?
+- intent: faq/weight-q4
+  examples: |
+    - How do I gain weight without gaining fat?
+- intent: faq/weight-q5
+  examples: |
+    - Does using the GOMAD strategy help in weight gain?
+- intent: faq/weight-q6
+  examples: |
+    - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?

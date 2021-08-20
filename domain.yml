@@ -37,10 +37,18 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  utter_faq/age:
-  - text: I am 10 years old.
-  utter_faq/location:
-  - text: I am from Mars.
+  utter_faq/weight-q1:
+  - text: If you want to build muscle mass you need to do activities that engage and exercise all your muscle groups and get sufficient nutrition.
+  utter_faq/weight-q2:
+  - text: My general suggestion for people are new to exercise is to start with aiming for balance of their intake of carbs and protein.. How many calories depends a lot on your weight/height/age.
+  utter_faq/weight-q3:
+  - text: It might help you gain weight, but you would have to drink a lot of it. Eating a larger variety nutritious food would be more beneficial than drinking only milk and honey. 
+  utter_faq/weight-q4:
+  - text: If you want to increase your lean mass to keep your body fat low as you gain weight, you need to consume at least 1g of protein per pound of lean body mass.
+  utter_faq/weight-q5:
+  - text: If you lift heavy three times a week and do GOMAD, a little less than half of the weight you gain will be fat.
+  utter_faq/weight-q6:
+  - text: Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
   utter_ask:
   - text: What do you want to ask me?
   - text: Ask me anything!
