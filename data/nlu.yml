@@ -101,3 +101,21 @@ nlu:
 - intent: faq/weight-q6
   examples: |
     - Is it true that you can eat anything you want within 15 minutes of working out without putting on weight?
+- intent: faq/protein-q1
+  examples: |
+    - What is the cheapest protein source?
+- intent: faq/protein-q2 
+  examples: |
+    - What is the window to utilize protein after weightlifting?
+- intent: faq/protein-q3
+  examples: |
+    - What is the scientific reasong behind the 1g protein per 1lb of body weight rule?
+- intent: faq/protein-q4
+  examples: |
+    - Do raw eggs contain protein inhibitors?
+- intent: faq/protein-q5
+  examples: |
+    - How do you meet your daily protein goals?
+- intent: faq/protein-q6
+  examples: |
+    - Is it good to take protein supplements?

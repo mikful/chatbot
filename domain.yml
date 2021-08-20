@@ -49,6 +49,18 @@ responses:
   - text: If you lift heavy three times a week and do GOMAD, a little less than half of the weight you gain will be fat.
   utter_faq/weight-q6:
   - text: Your body will process the food that you ingest, and if the caloric intake of the food is greater than the amount of calories burned during the ensuing exercise, you will gain weight.
+  utter_faq/protein-q1:
+  - text: Beans! A 1-pound bag of dry beans can easily be found for $1, and contains about 100 grams of protein. Of course, you can't eat raw beans, so this source requires some kitchen work.
+  utter_faq/protein-q2:
+  - text: To immediately counter the effects of this and prevent further breakdown, it is suggested that some protein, and carbohydrates to elevate insulin levels (of benefit to muscle protein synthesis) is consumed immediately after a workout.
+  utter_faq/protein-q3:
+  - text: A study examined nitrogen balance and lean body mass preservation related to protein intake, and found that when not training, bodybuilders needed little more than sedentary to maintain mass, while protein needs did increase during training, and endurance athletes needed more than bodybuilders, being 1.12 x sedentary control levels for bodybuilders, and 1.67 x sedentary control for endurance training.
+  utter_faq/protein-q4:
+  - text: Raw egg white also contains a protein called avidin which inhibits the absorption of Biotin-a B vitamin.If you cook the eggs both the factors are destroyed.
+  utter_faq/protein-q5:
+  - text: Eating a variety of different foods, spacing your meals, and if necessary complementing your plant sources with eggs and/or ovalbumin, high-quality protein intake of above 100 grams is entirely achievable.
+  utter_faq/protein-q6:
+  - text: Protein powder as the name suggest are supplements, if you are using them as food, it may come up with side-effects.
   utter_ask:
   - text: What do you want to ask me?
   - text: Ask me anything!
